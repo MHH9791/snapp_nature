@@ -1,0 +1,73 @@
+.inputStyle{
+    width: 75%;
+    height: 40px;
+    border-color: #253932;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: Oxanium;
+    font-size: large;
+    font-weight: bold;
+    outline:none;
+    autocomplete:off;
+
+}
+
+.register_alert{
+    background:white;
+    border-color: #253932;
+    border-width: 2px;
+    border-radius: 5px;
+    width:75%;
+    color:#253932;
+    font-family: Oxanium;
+    font-size:medium;
+    text-align: left;
+    display:block;
+    margin:0 auto;
+}
+.buttonStyle
+{
+    width: 75%;
+    height: 40px;
+    background: #253932;
+    border-color:#253932;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family:Oxanium;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+
+input::-webkit-input-placeholder{
+    color:#253932;
+    font-family:Oxanium;
+    font-size: 15px;
+}
+
+.login_page{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    position: fixed;
+
+}
+
+.login_page form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    width:100%;
+    max-width: 400px;
+    min-width: 200px;
+
+
+}
+
+.loginText{
+    font-family:Oxanium;
+    font-size: 15px;
+    color:#253932;
+}

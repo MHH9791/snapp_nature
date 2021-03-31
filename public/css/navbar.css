@@ -1,0 +1,134 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    overflow:hidden;
+    z-index: 99;
+}
+
+.topbar{
+    position: fixed;
+    z-index: 98;
+    top: 0;
+
+    width: 100vw;
+    height: 74px;
+
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    background-color: white;
+
+    padding: 0rem 1.1rem;
+}
+
+.topbar .nav__link{
+    /*max-height: 51px;
+    margin-top: auto;
+    margin-bottom: auto;*/
+}
+
+.topbar .login_button{
+    width: 42px;
+    min-height: 42px;
+
+    background: #325B4D;
+    border-radius: 12px;
+
+    font-family: Oxanium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    margin-bottom: 7px;
+
+    color: #CFB54B;
+}
+
+.nav__link{
+    min-width: 62px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #4f7568;
+    place-content: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+
+    height: 100%;
+    display: flex;
+    place-content: center;
+}
+
+.nav__link:hover{
+    background: rgb(237, 237, 237);
+}
+
+.nav__icon{
+    min-height: 35.41px;
+    max-height: 35.41px;
+}
+
+.nav__text{
+    font-family:Oxanium;
+    font-size: 12px;
+    color: black;
+}
+
+.observation__navbar{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.observation__topbar {
+    width: 100vw;
+}
+
+.observation__topbar .nav__link{
+    font-size: 20px;
+    position: absolute;
+    width: 75px;
+    min-height: 74px;
+    top: 0;
+    display: flex;
+    align-content: center;
+    place-content: center;
+}
+
+.observation__topbar .logo{
+    max-width: 100%;
+    max-height: 33px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.material-icons.nav__icon{
+    position: relative;
+    top: -9px;
+}
+
+.nav__link:hover{
+    color: #476B5E;
+}
+
+.nav__link_selected{
+    background: #cce4dd;
+    border-top: solid;
+    border-top-color: #3D6055;
+}

@@ -1,0 +1,103 @@
+.observation_result{
+    margin-top: 116px;
+    margin-bottom: 75px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.wiki_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 9px;
+
+    height: 32px;
+}
+
+.observed_img, .wiki_link{
+    width: 91.46vw;
+    max-width: 400px;
+}
+
+.observed_img, .wiki_info{
+    height: auto;
+    text-align: justify;
+}
+
+.observed_img{
+    border:2px solid;
+    border-color: #253932;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.wiki_info{
+    margin-top: 9px;
+    margin-bottom:9px;
+
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 17px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 78.34vw;
+    max-width: 550px;
+}
+
+.wiki_link img{
+    height: 32px;
+    width: 32px;
+}
+
+.wiki_link h1{
+    font-family:Oxanium;
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-bottom:0px;
+    margin-right: 5px;
+}
+
+.wiki_link{
+    color: black;
+    text-decoration: none;
+}
+
+.rate_observation{
+    font-family:Oxanium;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    margin-top: 12px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+.score_icon{
+    width: 35px;
+    height: 35px;
+}
+
+.score_icon.rated{
+    color: #cfb54b;
+}
+
+.score_icon.onHover{
+    color:#cfb54b;
+}
+
+.score_icon:hover{
+    cursor: pointer;
+}

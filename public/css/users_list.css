@@ -1,0 +1,54 @@
+.follow_users_list{
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.follow_users_list li {
+    list-style-type: none;
+}
+
+.follow_users_list_user_item{
+    height: 105px;
+    width: 80vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+
+    border-bottom: solid gray 1px;
+}
+
+.profile-picture{
+    max-width: 70px;
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Karla;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.profile-picture img{
+    max-width: 70px;
+    max-height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    object-fit: cover;
+}
+
+.follow_users_list_username{
+    margin-left: 20px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #253932;
+}

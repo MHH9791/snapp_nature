@@ -1,0 +1,78 @@
+#scrollbox {
+    max-width: 800px;
+    width: 77vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.task_page {
+    background-image: url("../../Assets/background-pattern.png");
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+#task_description{
+    color: #253932;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#task_location{
+    color: #253932;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 0;
+    text-align: right;
+    font-size: 13px;
+}
+
+#task_element{
+    margin-bottom: 60px;
+}
+
+#checkboxgood{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+#wrapper {
+}
+
+#task_title {
+    color: #253932;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+#circleuncompleted {
+    display: inline-block;
+    color: #253932;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float:left;
+    position:relative;
+    bottom: 39px;
+    left: 15px;
+    border: solid;
+}
+
+#circlecompleted{
+    display: inline-block;
+    background: #15A678;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float:left;
+    position:relative;
+    bottom: 39px;
+    left: 15px;
+}
+

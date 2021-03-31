@@ -1,0 +1,21 @@
+.infowindow{
+    max-width: 85px;
+    max-height: 85px;
+    float: left;
+}
+
+.picture{
+    max-width: 85px;
+    max-height: 85px;
+    float: left;
+}
+
+h6{
+    float: right;
+    padding: 10px;
+}
+
+p{
+    float: right;
+    padding: 10px;
+}

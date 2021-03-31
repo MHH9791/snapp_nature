@@ -1,0 +1,68 @@
+.diary_post_content{
+    transition-property: max-height,border,margin-bottom;
+    transition-duration: 1s;
+    max-height: 0px;
+    border: 0;
+    margin-bottom: 35px;
+}
+
+.diary_post_content_active{
+    margin-bottom: 120px;
+    max-height: 600px;
+}
+
+.diary_post{
+    position: relative;
+    top:124px;
+    width: 80vw;
+    max-width: 600px;
+    height: 67px;
+    border: 1px solid #BABABA;
+    font-family: Oxanium;
+    background-color: white;
+}
+
+.diary_post_information{
+    max-height: 0px;
+    opacity: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.diary_post_time p,.diary_post_location p {
+    font-family: Oxanium;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.diary_post_time p{
+    font-weight: 600;
+}
+
+.diary_post_location p{
+    font-weight: 300;
+}
+
+.diary_detail_button{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+}
+
+li{
+    max-height: 100px;
+    transition-property: max-height;
+    transition-duration: 1s;
+}
+
+.active_li{
+    max-height:1000px;
+}

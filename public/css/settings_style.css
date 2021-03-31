@@ -1,0 +1,49 @@
+.setting_upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.language_selection{
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 120px;
+}
+
+.flag-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    flex: 1;
+    font-weight: bold;
+}
+
+.confirm_button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 84px;
+    height: 26px;
+    background: #325B4D;
+    border-radius: 12px;
+    color: white;
+    font-family: Oxanium;
+
+    border: none;
+}
+
+label{
+    margin:0;
+    margin-left: 3px;
+}
+
+input{
+    line-height: initial;
+}
+
+button{
+    -webkit-appearance: none;
+}

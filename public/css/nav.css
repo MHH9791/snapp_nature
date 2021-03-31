@@ -1,0 +1,11 @@
+.nav {
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+    left: 0px;
+    top: 747px;
+}
+
+.nav__icon{
+    max-width: 70px;
+}
